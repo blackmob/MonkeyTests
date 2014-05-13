@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30110.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreaterHeights.MonkeyTests", "GreaterHeights.MonkeyTests\GreaterHeights.MonkeyTests.csproj", "{843E9BD1-B963-445A-98BD-D983BC9DAE47}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreaterHeights.WebMonkey", "GreaterHeights.WebMonkey\GreaterHeights.WebMonkey.csproj", "{237C65E9-419E-4D4F-829C-E9DF90BDEEB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreaterHeights.Interfaces", "GreaterHeights.Interfaces\GreaterHeights.Interfaces.csproj", "{74051C25-B90B-4975-A706-9D1F95519DA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreaterHeights.Repositories", "GreaterHeights.Repositories\GreaterHeights.Repositories.csproj", "{A502FA66-D84C-4862-89A1-FC07AB65B856}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{00FCBED3-FA31-444A-8F08-CC733ED7605A}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreaterHeights.Domain", "GreaterHeights.Domain\GreaterHeights.Domain.csproj", "{CB18DDAF-6AE7-4238-8C71-E569597E0F20}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{843E9BD1-B963-445A-98BD-D983BC9DAE47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{843E9BD1-B963-445A-98BD-D983BC9DAE47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{843E9BD1-B963-445A-98BD-D983BC9DAE47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{843E9BD1-B963-445A-98BD-D983BC9DAE47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{237C65E9-419E-4D4F-829C-E9DF90BDEEB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{237C65E9-419E-4D4F-829C-E9DF90BDEEB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{237C65E9-419E-4D4F-829C-E9DF90BDEEB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{237C65E9-419E-4D4F-829C-E9DF90BDEEB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74051C25-B90B-4975-A706-9D1F95519DA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74051C25-B90B-4975-A706-9D1F95519DA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74051C25-B90B-4975-A706-9D1F95519DA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74051C25-B90B-4975-A706-9D1F95519DA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A502FA66-D84C-4862-89A1-FC07AB65B856}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A502FA66-D84C-4862-89A1-FC07AB65B856}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A502FA66-D84C-4862-89A1-FC07AB65B856}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A502FA66-D84C-4862-89A1-FC07AB65B856}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB18DDAF-6AE7-4238-8C71-E569597E0F20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB18DDAF-6AE7-4238-8C71-E569597E0F20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB18DDAF-6AE7-4238-8C71-E569597E0F20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB18DDAF-6AE7-4238-8C71-E569597E0F20}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
